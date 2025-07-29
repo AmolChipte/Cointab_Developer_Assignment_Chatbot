@@ -29,6 +29,7 @@ This project is a full-stack **ChatGPT-style chatbot** built for the Cointab dev
 
 ### 1. Clone the Repository
 `git clone https://github.com/AmolChipte/Cointab_Developer_Assignment_Chatbot.git`
+
 `cd Cointab_Developer_Assignment_Chatbot`
 
 ### 2. Install Dependencies
@@ -45,6 +46,7 @@ Create a .env file in the root:
 
 ### 4. Set Up PostgreSQL
 `npx prisma generate`
+
 `npx prisma migrate dev --name init`
 
 ### 5. Start Ollama (for LLM)
