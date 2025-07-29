@@ -36,8 +36,11 @@ This project is a full-stack **ChatGPT-style chatbot** built for the Cointab dev
 
 ### 3. Set Up Environment Variables
 Create a .env file in the root:
+
 `DATABASE_URL=postgresql://user_name:user_password@localhost:5432/database_name`
+
 `NEXTAUTH_SECRET=your_secret_key`
+
 `NEXTAUTH_URL=http://localhost:3000`
 
 ### 4. Set Up PostgreSQL
