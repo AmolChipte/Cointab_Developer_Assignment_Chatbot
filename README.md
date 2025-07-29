@@ -40,10 +40,6 @@ Create a .env file in the root:
 
 `DATABASE_URL=postgresql://user_name:user_password@localhost:5432/database_name`
 
-`NEXTAUTH_SECRET=your_secret_key`
-
-`NEXTAUTH_URL=http://localhost:3000`
-
 ### 4. Set Up PostgreSQL
 `npx prisma generate`
 
@@ -66,5 +62,7 @@ Create a .env file in the root:
 `/api/send` – Send message and stream assistant reply
 
 `/api/ollama` – Interface with Ollama LLM locally
+
+---
 
 # We have Reached to End, Thank you for Reading
