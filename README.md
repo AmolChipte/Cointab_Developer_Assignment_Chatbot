@@ -60,6 +60,11 @@ Create a .env file in the root:
 ## API Routes
 
 `/api/chat` – Create a New Chat, Delete Chat, Edit Chat Title, Load All Previous Chats
+
 `/api/message` – Save user message
+
 `/api/send` – Send message and stream assistant reply
+
 `/api/ollama` – Interface with Ollama LLM locally
+
+# We have Reached to End, Thank you for Reading
